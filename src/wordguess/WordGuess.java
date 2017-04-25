@@ -128,8 +128,8 @@ import java.util.Scanner;
                 System.out.println("Your score is: " + (finalScore + 10));
                 
                 if (flagWin == 1) {
-                    int bonus = score - (numGuesses * 10);
-                    System.out.println("Guess bonus of " + bonus);
+                    int bonus = finalScore - (maxScore);
+                    System.out.println("Guess bonus of " + (bonus + 10));
                 }
                 
                 
